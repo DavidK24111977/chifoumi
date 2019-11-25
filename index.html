@@ -2,13 +2,36 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <script src="https://kit.fontawesome.com/a898c6993f.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/app.css">
     <title>Chi Fou Mi</title>
+
 </head>
 <body>
-
+<div class="container">
+    <h1>Chi-Fou-Mi</h1>
+    <div class="imgsBot">
+        <img class="btn half" src="assets/img/Rock-paper-scissors_(rock).png" alt="Chi">
+        <img class="btn half" src="assets/img/Rock-paper-scissors_(paper).png" alt="Fou">
+        <img class="btn half" src="assets/img/Rock-paper-scissors_(scissors).png" alt="Mi">
+    </div>
+    <div class="imgs">
+        <img class="btn half" id="chiBtn" src="assets/img/Rock-paper-scissors_(rock).png" alt="Chi">
+        <img class="btn half" id="fouBtn" src="assets/img/Rock-paper-scissors_(paper).png" alt="Fou">
+        <img class="btn half" id="miBtn" src="assets/img/Rock-paper-scissors_(scissors).png" alt="Mi">
+    </div>
+    <div id="result">
+        <div class="col win">
+            <h2>Gagné</h2>
+            <div>0</div>
+        </div>
+        <div class="col loose">
+            <h2>Perdu</h2>
+            <div>0</div>
+        </div>
+    </div>
+</div>
+<script src="js/app.js"></script>
 </body>
 </html>
